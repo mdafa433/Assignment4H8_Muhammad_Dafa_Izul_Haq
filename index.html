@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Assignment 4</title>
+</head>
+<body class="flex justify-center items-center h-screen">
+    <main>
+        <div class="border shadow-xl w-[70rem] p-5">
+            <div class="flex items-center">
+                <div class="w-[8rem] -translate-y-[37px]">
+                     <img src="image/anime.png" alt="" class="rounded-full">
+                </div>
+                <div class="ml-6">
+                    
+                        <p id="nama" class="font-bold text-[24px] block"></p>
+                        <p id="work" class="block"></p>
+                        <div class="flex gap-4">
+                            <div class="mt-8">
+                                <a href="form.html" class="border bg-blue-800 rounded-md text-white text-center px-8 py-2">Edit</a>
+                            </div>
+                            <div class="mt-8">
+                                <a href="" class="border border-green-400 text-green-500 rounded-lg text-center px-6 py-2 transition ease-in-out delay-150 hover:bg-green-500 hover:text-white">Resume</a>
+                            </div>
+                            <div class="border bg-black left-96 h-[13rem] w-0 absolute translate-x-[32rem] -translate-y-[4rem]"></div>      
+                        <form class="ml-64 -translate-y-[52px] translate-x-[30px] ">
+                            <div class="space-y-2">
+                                <div class="flex items-center gap-4">
+                                    <label for="availability" class="w-[10rem]">Availability</label>
+                                    <input type="text" id="availability" class="flex-1 border px-2 border-gray-300 rounded-md cursor-default" readonly>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <label for="age" class="w-[10rem]">Usia</label>
+                                    <input type="text" id="age" class="flex-1 border px-2 border-gray-300  rounded-md">
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <label for="location" class="w-[10rem]">Lokasi</label>
+                                    <input type="text" id="location" class="flex-1 border px-2 border-gray-300 rounded-md">
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <label for="experience" class="w-[10rem]">Pengalaman</label>
+                                    <input type="text" id="experience" class="flex-1 border px-2 border-gray-300 rounded-md">
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <label for="email" class="w-[10rem]">Email</label>
+                                    <input type="text" id="email" class="flex-1 border px-2 border-gray-300 rounded-md">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>                   
+            </div>
+        </div>
+    </main>
+    <script src="script2.js"></script>
+</body>
+</html>

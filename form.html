@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Edit Form</title>
+</head>
+<body class="flex justify-center items-center h-screen">
+    <form class="space-y-4">
+        <div class="space-y-4 border shadow-xl w-[40rem] p-4">
+            <div class="block">
+                <label for="name" class="w-[10rem]">Nama</label>
+                <input type="text" id="nama" class="w-full border border-gray-300 px-2 rounded-md" placeholder="Nama Anda">
+            </div>
+            <div class="block">
+                <label for="role" class="w-[10rem]">Role</label>
+                <input type="text" id="role" class="w-full border border-gray-300 px-2 rounded-md" placeholder="Frond End Designer">
+            </div>
+            <div class="block">
+                <label for="availability" class="w-[10rem]">Availability</label>
+                <input type="text" id="availability" class="w-full border border-gray-300 px-2 rounded-md" placeholder="Full Time">
+            </div>
+            <div class="block">
+                <label for="age" class="w-[10rem]">Usia</label>
+                <input type="text" id="age" class="w-full border border-gray-300 px-2 rounded-md" placeholder="19">
+            </div>
+            <div class="block">
+                <label for="location" class="w-[10rem]">Lokasi</label>
+                <input type="text" id="location" class="w-full border border-gray-300 px-2 rounded-md" placeholder="Jakarta">
+            </div>
+            <div class="block">
+                <label for="experience" class="w-[10rem]">Years Experience</label>
+                <input type="text" id="experience" class="w-full border border-gray-300 px-2 rounded-md" placeholder="2">
+            </div>
+            <div class="block">
+                <label for="email" class="w-[10rem]">Email</label>
+                <input type="text" id="email" class="w-full border border-gray-300 px-2 rounded-md" placeholder="Email@gmail.com">
+            </div>
+            <button type="submit" class="border bg-green-500 w-full text-white p-2">Submit</button>
+        </div>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
